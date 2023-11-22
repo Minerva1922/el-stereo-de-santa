@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cherry+Bomb+One&family=Lora&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cherry bomb one', lora, serif;
+    background-image: url('src/lib/img/fondo.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
