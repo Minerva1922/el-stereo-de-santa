@@ -4,6 +4,8 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    /* display: flex;
+    justify-content: flex-end; */
     box-sizing: border-box;
     font-family: 'cherry bomb one', lora, serif;
     background-image: url('src/lib/img/fondo.png');

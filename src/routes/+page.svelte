@@ -12,6 +12,7 @@
         border-radius: 15px;
         height: 60px;
         width: 70px;
+        margin-left: 355px;
         
        
     }
