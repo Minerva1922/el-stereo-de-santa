@@ -28,15 +28,18 @@
     border-radius: 15px;
     height: 60px;
     width: 70px;
-    margin: 10px; /* Ajusta el margen según tus necesidades */
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+
   }
 
   .menu-container {
     position: absolute;
-    top: 80px; /* Ajusta la posición vertical según tus necesidades */
-    left: 10px; /* Ajusta la posición horizontal según tus necesidades */
+    top: 80px;
+    left: 10px;
     background-color: #FEF9E2;
-    border: 1px solid #CC1C1C;
+    border: 2px solid #CC1C1C;
     border-radius: 5px;
     padding: 10px;
     z-index: 1;
@@ -47,6 +50,6 @@
     padding: 8px;
     text-decoration: none;
     color: #0C483F;
-    margin-bottom: 8px; /* Agrega espacio entre enlaces */
+    margin-bottom: 8px;
   }
 </style>

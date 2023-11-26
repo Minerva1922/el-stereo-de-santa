@@ -28,7 +28,7 @@
          position: absolute;
          margin-left: 48px;
          border-radius: 25px;
-         border: 5px solid #CC1C1C; /* Cambia #E57373 por el color de borde que deseas */
+         border: 5px solid #CC1C1C;
      }
      main {
         width: 16px;
