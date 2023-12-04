@@ -1,15 +1,15 @@
 <script>
     import "../app.css";
+    import App from "$lib/componentes/App.svelte";
 </script>
 
 <main>
+<App />
     <slot />
 </main>
 
 
-<section>
-    <h1>El Stereo de Santa</h1>
-</section>
+
 
 <style>
      h1 {

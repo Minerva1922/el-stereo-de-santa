@@ -1,55 +1,40 @@
 <script>
-  let showMenu = false;
-
-  function toggleMenu() {
-    showMenu = !showMenu;
-  }
+  import App from "$lib/componentes/App.svelte";
 </script>
 
-<button on:click={toggleMenu}>
-  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-  </svg>
-</button>
 
-{#if showMenu}
-  <div class="menu-container">
-    <a href="/">Editar Playlist</a>
-    <a href="/">Programar horarios</a>
-    <a href="/">Opción 3</a>
+<main>
+  <div>
+    <App />
   </div>
-{/if}
+</main>
+
+<section>
+  <h1>El Stereo de Santa</h1>
+</section>
 
 <style>
-  button {
-    color: #0C483F;
-    background: #CC1C1C;
-    border: none;
-    border-radius: 15px;
-    height: 60px;
-    width: 70px;
-    margin: 10px;
-    justify-content: space-between;
-    display: flex;
+     h1 {
+         color: #CC1C1C;
+         font-size: 40px;
+         text-align: center;
+     }
 
-  }
+     section {
+         background-color: #FEF9E2;
+         width: 324px;
+         height: 778px;
+         margin-top: 67px;
+         display: flex;
+         justify-content: center;
+         position: absolute;
+         margin-left: 48px;
+         border-radius: 25px;
+         border: 5px solid #CC1C1C;
+     }
+     main {
+        width: 16px;
+        height: 16px;
+     }
 
-  .menu-container {
-    position: absolute;
-    top: 80px;
-    left: 10px;
-    background-color: #FEF9E2;
-    border: 2px solid #CC1C1C;
-    border-radius: 5px;
-    padding: 10px;
-    z-index: 1;
-  }
-
-  .menu-container a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    color: #0C483F;
-    margin-bottom: 8px;
-  }
 </style>
